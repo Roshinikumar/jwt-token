@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>register</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+ 
+</head>
+
+<body>
+
+<div class="container">
+  <h2>Registration</h2>
+  <form id="form1" action='/register' method="POST"> 
+  
+    <div class="form-group">
+      <label for="name">Name</label>
+      <input type="name" class="form-control" id="name" placeholder="Enter name" name="name"><br/>
+    
+    </div>
+    <div class="form-group">
+      <label for="mobile">Mobile:</label>
+      <input type="mobile" class="form-control" id="mobile" placeholder="Enter mobile number" name="mobile"><span id="numloc"></span><br/>  
+     
+    </div>
+    <div class="form-group">
+        <label for="email">Email</label>
+        <input type="email" class="form-control" id="email" placeholder="Enter email" name="email"><br/>
+      
+      </div>
+      <div class="form-group">
+        <label for="email">Password</label>
+        <input type="password" class="form-control" id="password" placeholder="Enter password" name="password"><br/>
+      
+      </div>
+
+
+     
+    <button type="submit" id ='submit' class="btn btn-default">create</button>&nbsp;
+    <a href='http://localhost:5000/login'>already exists? Login</a>
+
+  </form> 
+</div>
+
+</body>
+
+</html>
+
+
